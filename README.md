@@ -142,6 +142,7 @@ Pagination metadata is included in responses:
   "totalElements": 120,
   "totalPages": 12
 }
+```
 
 ## 8. Richardson Maturity Model Application
 
@@ -153,6 +154,7 @@ Level 3: HATEOAS is implemented.
 
 Example HATEOAS Response
 
+```json
 {
   "id": "123",
   "title": "Clean Code",
@@ -161,6 +163,7 @@ Example HATEOAS Response
     "author": { "href": "/api/v1/authors/45" }
   }
 }
+```
 
 ## 9. Authentication
 
